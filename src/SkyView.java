@@ -17,14 +17,12 @@ public class SkyView {
                 }
                 a = a + 1;
                 b=b-1;
-                //if (b == numCols-1) {
                     while (b > -1) {
                         view[a][b] = scanned[c];
                         b = b - 1;
                         c = c + 1;
                     }
                     a = a + 1;
-                //}
             }
         }
 
@@ -54,6 +52,18 @@ public class SkyView {
             e=0;
         }
         return result;
+    }
+
+    public double getAverage(int startRow, int endRow, int startCol, int endCol)
+    {
+        double sum=0.0;
+        while (startRow<endRow+1)
+        {
+            while(startCol<endCol+1)
+            {
+                sum
+            }
+        }
     }
 }
 
